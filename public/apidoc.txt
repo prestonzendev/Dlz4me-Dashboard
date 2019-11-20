@@ -1,0 +1,1299 @@
+===========For login api=====================
+
+url : http://fako.projectstatus.in/api/login
+method : post
+header :
+    Accept : application/json
+params : 
+email : fakotest@yopmail.com
+password: Dots@123456
+Response :
+success 
+{
+    "status": true,
+    "message": "You have logged in successfully",
+    "code": 200,
+    "data": {
+        "id": 28,
+        "first_name": "fakotest",
+        "last_name": "user",
+        "gender": null,
+        "profilepic": "Not Uploaded",
+        "picapproved": "<label class='label label-danger'>Awaited</label>",
+        "email": "fakotest@yopmail.com",
+        "phone": "78456123",
+        "address": "abc street",
+        "address_2": "main road",
+        "city": "ajmer",
+        "state": "rajasthan",
+        "country": "India",
+        "zip": "123458",
+        "latitude": null,
+        "longitude": null,
+        "search_radius": 5,
+        "status": 1,
+        "confirmation_code": "155add691c03e3a291b13c5163bdf094",
+        "confirmed": 1,
+        "is_term_accept": 0,
+        "accountname": "fakotest_user",
+        "dob": null,
+        "age": null,
+        "aboutme": null,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": "2019-06-14 07:58:15",
+        "updated_at": "2019-06-14 15:44:25",
+        "deleted_at": null,
+        "stripe_id": null,
+        "card_brand": null,
+        "card_last_four": null,
+        "trial_ends_at": null,
+        "braintree_id": null,
+        "paypal_email": null,
+        "adminnote": null
+    },
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijg1NDRkYzJjZWQ1MDBiYmQyMDBlNDA3NDY2YTE5ZTBlMzYwNzQzN2RkZTIxOTJiM2ZhODExOGI0YWE2MjQ5YjBhYjczOGQ5NjdlM2I5MWY1In0.eyJhdWQiOiIxIiwianRpIjoiODU0NGRjMmNlZDUwMGJiZDIwMGU0MDc0NjZhMTllMGUzNjA3NDM3ZGRlMjE5MmIzZmE4MTE4YjRhYTYyNDliMGFiNzM4ZDk2N2UzYjkxZjUiLCJpYXQiOjE1NjA3NDc4ODAsIm5iZiI6MTU2MDc0Nzg4MCwiZXhwIjoxNTkyMzcwMjgwLCJzdWIiOiIyOCIsInNjb3BlcyI6W119.AU5mZLS3yThzOjrdRutH1KJbzvUCVG9z9Wj2HA1aQbfdxUCpqI4Heyr9Bmw859hKmpxSFnRXbmgn6-PO9Hq2849hxJdk6wYKWnGuZu8aDvgW36DBzWcI07XY4Fu-rmbjW1qQjtSEsDcMIFmGWnLn1MjYeTtbcspULyz9MvJt04kEGawOJJTEuw1PvVcJheOj5yWg2-KAmN5_UWVbmr7LaSzr_ehZp2Izf5ws0dP2qkqzVYHlRt2MI8eLtBV5WeRKT80APyojfqMFhHNIknpIVhfSZCx7F7PAiS73GNoBg4uYsIaqPf5S8kdcXbTz7eUBmDKbZgjFCQpHPUjw4_55jGTHJhAvCTSYm41v_W-akRaHWopmNCxBPCc32NTLId4crXwVs5dL9anGcZf0vjG20YSXO4ubcaaPI3h7pSeZLKf7LrWcy5PwHsV-Yc3v4ZM-oDBLvN_e0K6bhSyI-lS4GI75wmH60XROYOK9KB0z--szfeHOGR7Be5-qwkynud7gJdXD4qx3Q2aef8axnx39OEFCXDgD7haMh6hyEN1msiu4J09yquDKF9VvRNAPVDborNqnpIrxzUb4whz6WIai-uxj_LfuY4y07lGUMYHtPKtqpNoXQaUarK7tX0IcUY_b9SGaz9wArd4uP_TEjLHXsi7zbz2-Umr-YSleUDOFiHI"
+}
+error
+{
+    "status": false,
+    "message": "Email or Password Incorrect",
+    "code": 200,
+    "data": {}
+}
+
+===========For social login api=====================
+
+url : http://fako.projectstatus.in/api/social-login
+method : post
+header :
+    Accept : application/json
+params : 
+email       : fakotest@yopmail.com
+provider    : facebook
+provider_id : qwer134srf
+name        : fakotest
+Response :
+success 
+{
+    "status": true,
+    "message": "You have logged in successfully.",
+    "code": 200,
+    "data": {
+        "id": 28,
+        "first_name": "fako",
+        "last_name": "vendor",
+        "gender": 1,
+        "profilepic": "Not Uploaded",
+        "picapproved": 0,
+        "email": "fakotest@yopmail.com",
+        "phone": "7984561238",
+        "address": "abc street",
+        "address_2": "main road",
+        "city": "ajmer",
+        "state": "rajasthan",
+        "country": "India",
+        "zip": "123458",
+        "latitude": null,
+        "longitude": null,
+        "search_radius": 5,
+        "status": 1,
+        "confirmation_code": "155add691c03e3a291b13c5163bdf094",
+        "confirmed": 1,
+        "is_term_accept": 0,
+        "accountname": "fakotest_user",
+        "dob": "01/01/1990",
+        "age": null,
+        "aboutme": null,
+        "created_by": null,
+        "updated_by": null,
+        "created_at": "2019-06-14 07:58:15",
+        "updated_at": "2019-06-27 09:28:19",
+        "deleted_at": null,
+        "stripe_id": null,
+        "card_brand": null,
+        "card_last_four": null,
+        "trial_ends_at": null,
+        "braintree_id": null,
+        "paypal_email": null,
+        "adminnote": null,
+        "account_type_id": 3,
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjM0MzRiYjI3YzdlZmYxNmRhZGIyYWY4ZjcyN2E1YzM2Mzk2YzIwNzEzMjFmYzdjYjFiYjU3OWY0ZTFjZmQ4YTI1ODkyYTQ2OTkxODAzY2Q2In0.eyJhdWQiOiIxIiwianRpIjoiMzQzNGJiMjdjN2VmZjE2ZGFkYjJhZjhmNzI3YTVjMzYzOTZjMjA3MTMyMWZjN2NiMWJiNTc5ZjRlMWNmZDhhMjU4OTJhNDY5OTE4MDNjZDYiLCJpYXQiOjE1NjE3MTM0MzYsIm5iZiI6MTU2MTcxMzQzNiwiZXhwIjoxNTkzMzM1ODM2LCJzdWIiOiIyOCIsInNjb3BlcyI6W119.Wusm9gYswtG1GqweXHeWlN8aVEGCUmW5VqozSdZB4-uJhCus3onFB6fuJSLhnXTxkRCWK5Se1pgefoPXSsYk9PQvrU4UAGVM1vrRYYHkkI5A25moXbwzdh7gnYYdoAhf3ii1bmk_KuboQb0RPRsLX-Fl8Tk3kzyXYq4_h-JPyM83Kl0HSHcsqxH8E-GKFbO6u9lkdo1SockdzvmeB56aH8vh2jpfhnJPeRwP9OGwbB-ekA9WQE0WZ47USnFuLZzPaVT99e33llRxcG8zw8fOITdJlJAJB4UW1LlWaVt6iq0bbQxntM5NV637HagvHrc5pFRR05CRuDTQ3xzSrtdRimTyJKk_3a-t4RXSCThsWi7Rqfg9a1S__RouKNMzs52Ce_sPutdN4_KowHHMf4v4uvpNgGphXBt82PpRxfg9KDgfM15lbdIkjY9DDPaymtzpAdljp3uuao_AjhK8BGELyTdqzIyEcQrHU75Br5q7cx6zTMtorC8kizoYmAbN1f_B84hdzE7JRBfdRzFbqmU0J6ZgM8BKF-Sh7Cy7h4tKoUY9Tv6MYOd7nBFry7qqCrmtq9fBEbwHXiDRxuEh2j6T8IdezzAQuK6MeE756wI2n59Uqg7NCwhA_rxwpCvLtTjsfedjRRMD8geC6dgp-DNPQXG-PuF7kJcXs2PDlDhvKgw"
+    }
+}
+error
+{
+    "status": false,
+    "message": "Login Error",
+    "code": 200,
+    "data": {}
+}
+
+
+============Forgot Password Api=================
+1)
+
+url : http://fako.projectstatus.in/api/password/create
+method : post
+params:
+email : fakotest@yopmail.com
+Response :
+success
+{
+    "status": true,
+    "message": "We have e-mailed you OTP for password reset!",
+    "code": 200,
+    "data": {}
+}
+error
+{
+    "status": false,
+    "message": "We can't find a user with that e-mail address.",
+    "code": 200,
+    "data": {}
+}
+
+
+2)
+url : http://fako.projectstatus.in/api/password/reset
+method : post
+params:
+email : fakotest@yopmail.com
+password : Dots@12345
+password_confirmation : Dots@12345
+otp : 228530
+Response :
+success
+{
+    "status": true,
+    "message": "Password reset successfully.",
+    "code": 200,
+    "data": {}
+error
+{
+    "status": false,
+    "message": "This password reset otp is invalid.",
+    "code": 200,
+    "data": {}
+}
+
+====Registration api=======
+1)
+url : http://fako.projectstatus.in/api/register
+method : post
+params:
+ first_name: test,
+ last_name: 123,
+ email: test123@yopmail.com,
+ password: 123456
+ mobile: 7894561238,
+Response :
+success
+{
+    "status": true,
+    "message": "You are registered successfully. Confirmation OTP has been sent to your email.",
+    "code": 200,
+    "data": {
+        "first_name": "test",
+        "last_name": "123",
+        "email": "test12@yopmail.com",
+        "phone": "7894561237",
+        "confirmation_code": 764756,
+        "updated_at": "2019-06-17 13:12:03",
+        "created_at": "2019-06-17 13:12:03",
+        "id": 40
+    },
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjZlMzMwMjIwYTdmZjczNDlmZjBlOWMwMDBhZGMxYjg5YjVhZDRkMTZjYWViY2U3MTMwMmJkZDMyODIyYmU1YTUyOGFiODcwNzEwNTFlN2NmIn0.eyJhdWQiOiIxIiwianRpIjoiNmUzMzAyMjBhN2ZmNzM0OWZmMGU5YzAwMGFkYzFiODliNWFkNGQxNmNhZWJjZTcxMzAyYmRkMzI4MjJiZTVhNTI4YWI4NzA3MTA1MWU3Y2YiLCJpYXQiOjE1NjA3NTQzMjcsIm5iZiI6MTU2MDc1NDMyNywiZXhwIjoxNTkyMzc2NzI3LCJzdWIiOiIzNiIsInNjb3BlcyI6W119.iPAAnf_uWy2ZSeAQxAlbBotCK2n8YFTwohBDTtbZtyvNytfPZjM2wsURkjkxTxKCeXoZbcDBwxdZH9jTJgH3eKVv5-ToSqIKwkT0Lj0DE4yfK_ytXux1Z2czSMI15_MYiyS7dogJZPMyE72N-FmDNZLxV9bd4tQIKRxxqd4TJkCgRoHwV06BbSkNXyQS19oi3nHBmNA422KP57AbmgGvujLfc_xd0v48mWh1vpCJv5DZKKFVDHHK4IKDv98kIL9VZ7cC0w6JdYVTF9l9oW81pnyBh3rBZgFwW6dzyZE16Z3RpGZCLfpWcWexJq744vd_ZJIbBnBQdX4g2vR3IAKGbqmOYXRvrfEKLRoN2-xyXi85fBNhw2xIAltXOURwh9gQCDMnuMg_X3a11ZZ0Hp0QQGN3tvxdt3KEw5nYXcGFF8QTDaiFDkcHb-0sBDUvk37Fk8J4JJQ9sG9yj9nLg56nuYpA1wZDqg7_T0VQQheuP8E_z0gIk_SoE3lkg5SbXpZMygBRRqqvV0BHqxK0xYFW5OxMR6ovr_q2J7Tj34IYmyYDN6wEzDLl6_e79gnmKZOVJsHDtcuIQd9XzQIVY_Rgih_hyAyhrlucJfodEHcqWN5PRmY1mZUN4s07YAReXJpIVa2dElOrs2z_w1LDAt2cT84hwtOcbIbk3s8YXHGwLSQ"
+}
+error
+{
+    "status": false,
+    "message": "Error in registration.",
+    "code": 200,
+    "data": []
+}
+
+2)
+url : http://fako.projectstatus.in/api/register/resend-otp
+method : post
+params:
+ email: test123@yopmail.com,
+ mobile: 7894561238
+Response :
+success
+{
+    "status": true,
+    "message": "Resend OTP successfully.",
+    "code": 200,
+    "data": {}
+}
+error
+{
+    "status": false,
+    "message": "Error in resend otp.",
+    "code": 200,
+    "data": {}
+}
+
+3) 
+url : http://fako.projectstatus.in/api/register/resend-otp
+method : post
+header :
+    Accept : application/json
+params:
+ email: test123@yopmail.com,
+ mobile: 7894561238
+Response :
+success
+{
+    "status": true,
+    "message": "Resend OTP successfully.",
+    "code": 200,
+    "data": {}
+}
+error
+{
+    "status": false,
+    "message": "Error in resend otp.",
+    "code": 200,
+    "data": {}
+}
+
+
+
+====Get Profile=======
+url : http://fako.projectstatus.in/api/register/activate
+method : post
+header :
+    Accept : application/json
+params:
+ otp : 265168,
+ mobile_otp : 288528
+Response :
+success
+{
+    "status": true,
+    "message": "Account confirmation successfully.",
+    "code": 200,
+    "data": {}
+}
+
+{
+    "status": false,
+    "message": "Invalid OTP.",
+    "code": 200,
+    "data": {}
+}
+
+
+====Profile Update api=======
+url : http://fako.projectstatus.in/api/profile/update
+method : post
+header :
+    Accept : application/json
+    Authorization : Bearer .$token
+params:
+ first_name: test,
+ last_name: 123,
+ dob : 01/01/1990,
+ gender : 1,
+ mobile: 7894561238,
+Response :
+success
+{
+    "status": true,
+    "message": "Your profile has been successfully Updated.",
+    "code": 200,
+    "data": {
+        "first_name": "fakotest1",
+        "last_name": "user",
+        "gender": "1",
+        "mobile": "78456123"
+    },
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjQ3OWYzZDBmMDdkOGRjODM1ZWNlZjRkZDNmN2FiNzllYWY4MWYwM2EzMzRkNTAwNjQ4NTkwMTM5OGNkMmRmZDMwMThmY2I2NDkwNzZjNGFhIn0.eyJhdWQiOiIxIiwianRpIjoiNDc5ZjNkMGYwN2Q4ZGM4MzVlY2VmNGRkM2Y3YWI3OWVhZjgxZjAzYTMzNGQ1MDA2NDg1OTAxMzk4Y2QyZGZkMzAxOGZjYjY0OTA3NmM0YWEiLCJpYXQiOjE1NjEwMTI5NzksIm5iZiI6MTU2MTAxMjk3OSwiZXhwIjoxNTkyNjM1Mzc5LCJzdWIiOiIyOCIsInNjb3BlcyI6W119.OORKMWlGDvAsULM_ngB03uLW4K05OHmCUjG4sztUEiOquVhj6fYEMoZBvfXOwoPEOn4EYt6RBO0i7QCEQ9kfv2thN76JSKiuXdF1wZD5abWnm1WsqE2rfbmm3FfXSDqSdpZatUYcUJkzHH_GQVSQDUbzvBClYbBiuLkxfKdsjwO3t6wJzpGDmsXeX3vpMtmiln9sfN6kFFBLhPhTzeKlEJQYE4EdMZfNoI3-1cdL1oB19ARsfHQ_kOrO6EE_AgS-fU7TpE7-0y0S97d4HCiWd1SvpM9Ajxaww1QGWE9NKrHHjVJeF-SS7y6iHbDCLZ4Y1lWy6tnBfwAiFasr03iNttCMKgOn5kHQgy9bLXYapvvdhA4emNFDIDjvDy63X2K_jRanUfWFxg0sQiawYCTGpkISWBXD1ZBGcj-Otb4X-otfKRGGN-YEydjImgclrLPdeevdvr0Zkmg3RczqQHdh9ERYJ2cPYnlrjemZTL3_S_fc9bmhdU6_uK-DtATNdgF7yyR42CLphzFSmIXJ4a00ykT50d_b-rUj5UwU38XGGEYG8ug8hG0X0xK0SNLBH5bMM4YZfX1SIE1YeCat3QOZlvy2sjLaKzA7DbOhSe-4Q9R_3OGNAVAWQuomJB1KiimLP7P0sUYFkyhvQiYsoX3lMY4IBqzdJkyPr-EcEVn2DYU"
+}
+error
+{
+    "status": false,
+    "message": "Error in update profile.",
+    "code": 200,
+    "data": []
+}
+
+{
+    "status": false,
+    "message": "Unauthorized",
+    "code": 500,
+    "data": {}
+}
+
+====Check existing email or mobile api====
+url:http://fako.projectstatus.in/api/check/email
+method : post
+params:
+email : fakotest@yopmail.com
+password:784561239
+Response:
+success
+{
+    "status": true,
+    "message": "Email or Mobile not found.",
+    "code": 200,
+    "data": {}
+}
+error
+{
+    "status": false,
+    "message": "Email or Mobile already exists.",
+    "code": 200,
+    "data": {}
+}
+
+====Categories Api=====
+url:http://fako.projectstatus.in/api/get/offer/categories
+method : get
+header :
+    Accept : application/json
+params:
+    name : w
+    page : 1
+Response: 
+success
+{
+    "status": true,
+    "message": "Record has found",
+    "code": 200,
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 5,
+                "name": "Women",
+                "image": "1560866529Desert.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/category/1560866529Desert.jpg",
+                "status": "<label class='label label-success'>Active</label>",
+                "created_at": "2019-06-18 15:02:09",
+                "updated_at": "2019-06-18 15:02:09"
+            }
+        ],
+        "first_page_url": "http://fako.projectstatus.in/api/get/offer/categories?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://fako.projectstatus.in/api/get/offer/categories?page=1",
+        "next_page_url": null,
+        "path": "http://fako.projectstatus.in/api/get/offer/categories",
+        "per_page": 10,
+        "prev_page_url": null,
+        "to": 1,
+        "total": 1
+    }
+}
+
+error :
+{
+    "status": false,
+    "message": "No list found",
+    "code": 200,
+    "data": {}
+}
+
+
+====Offers Api=====
+url:http://fako.projectstatus.in/api/get/offers
+method : get
+header :
+    Accept : application/json
+params: 
+    name : ac
+    page : 1
+Response:
+success
+{
+    "status": true,
+    "message": "Record has found",
+    "code": 200,
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 12,
+                "vendor_id": 42,
+                "name": "shoes",
+                "title": "10% off",
+                "image": "1560921314Desert.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560921314Desert.jpg",
+                "description": "Description",
+                "url": "http://127.0.0.1:8000/vendor/show-offer",
+                "start_date": "2019-06-19 18:26:00",
+                "end_date": "0000-00-00 00:00:00",
+                "disc_perc": "10",
+                "coupon_code": "abc10",
+                "offer_type": 1,
+                "is_featured": 2,
+                "status": "<label class='label label-success'>Active</label>",
+                "created_at": "2019-06-19 06:15:14",
+                "updated_at": "2019-06-19 13:56:00",
+                "deleted_at": null
+            },
+            {
+                "id": 13,
+                "vendor_id": 42,
+                "name": "Accesories",
+                "title": "12% off",
+                "image": "1560924733Lighthouse.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560924733Lighthouse.jpg",
+                "description": "Description",
+                "url": "http://127.0.0.1:8000/vendor/show-offer",
+                "start_date": "2019-06-20 16:04:35",
+                "end_date": "0000-00-00 00:00:00",
+                "disc_perc": "12",
+                "coupon_code": "abc10",
+                "offer_type": 1,
+                "is_featured": 1,
+                "status": "<label class='label label-success'>Active</label>",
+                "created_at": "2019-06-19 07:12:13",
+                "updated_at": "2019-06-19 13:48:26",
+                "deleted_at": null
+            },
+            {
+                "id": 14,
+                "vendor_id": 42,
+                "name": "bracelets",
+                "title": "10% discount offer",
+                "image": "1560954045Tulips.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560954045Tulips.jpg",
+                "description": "There are many bracelets",
+                "url": "http://127.0.0.1:8000/vendor/show-offer",
+                "start_date": "2019-06-19 00:00:00",
+                "end_date": "2019-06-27 00:00:00",
+                "disc_perc": "8",
+                "coupon_code": "br8",
+                "offer_type": 2,
+                "is_featured": null,
+                "status": "<label class='label label-success'>Active</label>",
+                "created_at": "2019-06-19 15:20:45",
+                "updated_at": "2019-06-19 15:24:30",
+                "deleted_at": null
+            }
+        ],
+        "first_page_url": "http://fako.projectstatus.in/api/get/offers?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://fako.projectstatus.in/api/get/offers?page=1",
+        "next_page_url": null,
+        "path": "http://fako.projectstatus.in/api/get/offers",
+        "per_page": 10,
+        "prev_page_url": null,
+        "to": 3,
+        "total": 3
+    }
+}
+
+error :
+{
+    "status": false,
+    "message": "No list found",
+    "code": 200,
+    "data": {}
+}
+
+====Offer detail Api=====
+url:http://fako.projectstatus.in/api/get/offer-details?offer_id=13
+method : get
+header :
+    Accept : application/json
+params: 
+    offer_id=13
+Response:
+success
+{
+    "status": true,
+    "message": "Record has found",
+    "code": 200,
+    "data": [
+        {
+            "id": 13,
+            "vendor_id": 42,
+            "name": "Accesories",
+            "title": "12% off",
+            "image": "1560924733Lighthouse.jpg",
+            "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560924733Lighthouse.jpg",
+            "description": "Description",
+            "url": "http://127.0.0.1:8000/vendor/show-offer",
+            "start_date": "2019-06-19 18:18:53",
+            "end_date": "0000-00-00 00:00:00",
+            "disc_perc": "12",
+            "coupon_code": "abc10",
+            "offer_type": 1,
+            "is_featured": 1,
+            "status": 1,
+            "created_at": "2019-06-19 07:12:13",
+            "updated_at": "2019-06-19 13:48:26",
+            "deleted_at": null
+        }
+    ]
+}
+
+error :
+{
+    "status": false,
+    "message": "No Record found",
+    "code": 200,
+    "data": {}
+}
+
+====Featured Offers Api=====
+url:http://fako.projectstatus.in/api/get/featuredoffers
+method : get
+header :
+    Accept : application/json
+params: 
+    offer_type : 1 or 2 //1=online offer, 2=in-store offer
+Response:
+success
+{
+    "status": true,
+    "message": "List has found",
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "vendor_id": 32,
+            "name": "shoes",
+            "title": "10% discount offer",
+            "image": "1560979015Penguins.jpg",
+            "image_path": "http://fako.projectstatus.in/storage/app/public/img/offer/1560979015Penguins.jpg",
+            "description": "This is shoe",
+            "url": "http://127.0.0.1:8000/vendor/show-offer",
+            "start_date": "2019-06-20 02:49:36",
+            "end_date": "0000-00-00 00:00:00",
+            "disc_perc": "10",
+            "coupon_code": "abc10",
+            "offer_type": 1,
+            "is_featured": 2,
+            "status": 1,
+            "created_at": "2019-06-19 22:16:55",
+            "updated_at": "2019-06-19 22:19:06",
+            "deleted_at": null
+        }
+    ]
+}
+
+error :
+{
+    "status": false,
+    "message": "No list found",
+    "code": 200,
+    "data": {}
+}
+
+
+====Featured Categories Api=====
+url:http://fako.projectstatus.in/api/get/featured-categories
+method : get
+header :
+    Accept : application/json
+params: 
+    offer_type : 1 or 2 //1=online offer, 2=in-store offer
+Response:
+success
+{
+    "status": true,
+    "message": "List has found",
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "vendor_id": 32,
+            "name": "shoes",
+            "title": "10% discount offer",
+            "image": "1560979015Penguins.jpg",
+            "image_path": "http://fako.projectstatus.in/storage/app/public/img/offer/1560979015Penguins.jpg",
+            "description": "This is shoe",
+            "url": "http://127.0.0.1:8000/vendor/show-offer",
+            "start_date": "2019-06-20 02:49:36",
+            "end_date": "0000-00-00 00:00:00",
+            "disc_perc": "10",
+            "coupon_code": "abc10",
+            "offer_type": 1,
+            "is_featured": 2,
+            "status": 1,
+            "created_at": "2019-06-19 22:16:55",
+            "updated_at": "2019-06-19 22:19:06",
+            "deleted_at": null
+        }
+    ]
+}
+
+error :
+{
+    "status": false,
+    "message": "No list found",
+    "code": 200,
+    "data": {}
+}
+
+====Vendors Api=====
+url:http://fako.projectstatus.in/api/get/vendors
+method : get
+header :
+    Accept : application/json
+params: 
+    (optional)
+    offer_type : 1 or 2 //1=online offer, 2=in-store offer
+    page : 1
+    name : fa
+    lat : 56.1907058
+    long : 3.9488461999999345
+Response:
+success
+{
+    "status": true,
+    "message": "Record has found",
+    "code": 200,
+    "data": {
+        "data": [
+            {
+                "id": 12,
+                "first_name": "fako1",
+                "last_name": "vendor1",
+                "gender": null,
+                "profilepic": "Not Uploaded",
+                "picapproved": "<label class='label label-danger'>Awaited</label>",
+                "email": "fakovendor@yopmail.com",
+                "phone": "7894561231",
+                "address": "mahal road1",
+                "address_2": "ram street1",
+                "city": "Agra1",
+                "state": "Uttar Pradesh1",
+                "country": "India",
+                "zip": "798451",
+                "latitude": null,
+                "longitude": null,
+                "search_radius": 5,
+                "status": 1,
+                "confirmation_code": "e87252d06803c08eb0e7f53e7835c17e",
+                "confirmed": 1,
+                "is_term_accept": 0,
+                "accountname": "fako_vendor",
+                "dob": null,
+                "age": null,
+                "aboutme": null,
+                "created_by": null,
+                "updated_by": 42,
+                "created_at": "2019-06-19 06:15:14",
+                "updated_at": "2019-06-19 13:56:00",
+                "deleted_at": null,
+                "stripe_id": null,
+                "card_brand": null,
+                "card_last_four": null,
+                "trial_ends_at": null,
+                "braintree_id": null,
+                "paypal_email": null,
+                "adminnote": null,
+                "vendor_id": 42,
+                "name": "fako1 vendor1",
+                "title": "10% off",
+                "image": "1560921314Desert.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560921314Desert.jpg",
+                "description": "Description",
+                "url": "http://127.0.0.1:8000/vendor/show-offer",
+                "start_date": "2019-06-19 18:26:00",
+                "end_date": "0000-00-00 00:00:00",
+                "disc_perc": "10",
+                "coupon_code": "abc10",
+                "offer_type": 1,
+                "is_featured": 2
+            }
+        ],
+        "total": 2
+    }
+}
+
+error :
+{
+    "status": false,
+    "message": "No list found",
+    "code": 200,
+    "data": {}
+}
+
+
+==Check OTP api===
+url : http://fako.projectstatus.in/api/check-otp
+method : post
+params:
+otp : 123456
+Response :
+success
+{
+    "status": true,
+    "message": "OTP is valid.",
+    "code": 200,
+    "data": {
+        "id": 14,
+        "email": "fakovendor@yopmail.com",
+        "token": "323352",
+        "created_at": "2019-06-28 06:11:09",
+        "updated_at": "2019-06-28 06:11:09"
+    }
+}
+error
+{
+    "status": false,
+    "message": "otp is invalid.",
+    "code": 200,
+    "data": {}
+}
+
+
+====Featured Offers Api=====
+url:http://fako.projectstatus.in/api/get/vendor-offers
+method : get
+header :
+    Accept : application/json
+params: 
+    offer_type : 1 or 2 //1=online offer, 2=in-store offer
+    vendor_id : 42
+Response:
+success
+{
+    "status": true,
+    "message": "Record has found",
+    "code": 200,
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 12,
+                "vendor_id": 42,
+                "name": "shoes",
+                "title": "10% off",
+                "image": "1560921314Desert.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560921314Desert.jpg",
+                "description": "Description",
+                "url": "http://127.0.0.1:8000/vendor/show-offer",
+                "start_date": "2019-06-28 00:00:00",
+                "end_date": "2019-07-26 00:00:00",
+                "disc_perc": "10",
+                "coupon_code": "abc10",
+                "offer_type": 1,
+                "is_featured": 1,
+                "status": "<label class='label label-success'>Active</label>",
+                "created_at": "2019-06-19 06:15:14",
+                "updated_at": "2019-06-28 12:37:12",
+                "deleted_at": null
+            },
+            {
+                "id": 13,
+                "vendor_id": 42,
+                "name": "Accesories",
+                "title": "12% off",
+                "image": "1560924733Lighthouse.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560924733Lighthouse.jpg",
+                "description": "Description",
+                "url": "http://127.0.0.1:8000/vendor/show-offer",
+                "start_date": "2019-06-20 16:04:35",
+                "end_date": "0000-00-00 00:00:00",
+                "disc_perc": "12",
+                "coupon_code": "abc10",
+                "offer_type": 1,
+                "is_featured": 1,
+                "status": "<label class='label label-success'>Active</label>",
+                "created_at": "2019-06-19 07:12:13",
+                "updated_at": "2019-06-19 13:48:26",
+                "deleted_at": null
+            }
+        ],
+        "first_page_url": "http://localhost:8000/api/get/vendor-offers?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://localhost:8000/api/get/vendor-offers?page=1",
+        "next_page_url": null,
+        "path": "http://localhost:8000/api/get/vendor-offers",
+        "per_page": 10,
+        "prev_page_url": null,
+        "to": 2,
+        "total": 2
+    }
+}
+
+{
+    "status": false,
+    "message": "No Record found",
+    "code": 200,
+    "data": {}
+}
+
+====Search Offers Api=====
+url:http://fako.projectstatus.in/api/search/offers
+method : post
+header :
+    Accept : application/json
+params: 
+    search : abc
+Response:
+success
+{
+    "status": true,
+    "message": "Record has found",
+    "code": 200,
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 12,
+                "vendor_id": 42,
+                "name": "shoes",
+                "title": "10% off",
+                "image": "1560921314Desert.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560921314Desert.jpg",
+                "description": "Description",
+                "url": "http://127.0.0.1:8000/vendor/show-offer",
+                "start_date": "2019-06-28 00:00:00",
+                "end_date": "2019-07-26 00:00:00",
+                "disc_perc": "10",
+                "coupon_code": "abc10",
+                "offer_type": 1,
+                "is_featured": 1,
+                "status": "<label class='label label-success'>Active</label>",
+                "created_at": "2019-06-19 06:15:14",
+                "updated_at": "2019-06-28 12:37:12",
+                "deleted_at": null
+            },
+            {
+                "id": 13,
+                "vendor_id": 42,
+                "name": "Accesories",
+                "title": "12% off",
+                "image": "1560924733Lighthouse.jpg",
+                "image_path": "http://127.0.0.1:8000/storage/app/public/img/offer/1560924733Lighthouse.jpg",
+                "description": "Description",
+                "url": "http://127.0.0.1:8000/vendor/show-offer",
+                "start_date": "2019-06-20 16:04:35",
+                "end_date": "0000-00-00 00:00:00",
+                "disc_perc": "12",
+                "coupon_code": "abc10",
+                "offer_type": 1,
+                "is_featured": 1,
+                "status": "<label class='label label-success'>Active</label>",
+                "created_at": "2019-06-19 07:12:13",
+                "updated_at": "2019-06-19 13:48:26",
+                "deleted_at": null
+            }
+        ],
+        "first_page_url": "http://localhost:8000/api/get/vendor-offers?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http://localhost:8000/api/get/vendor-offers?page=1",
+        "next_page_url": null,
+        "path": "http://localhost:8000/api/get/vendor-offers",
+        "per_page": 10,
+        "prev_page_url": null,
+        "to": 2,
+        "total": 2
+    }
+}
+
+{
+    "status": false,
+    "message": "No Record found",
+    "code": 200,
+    "data": {}
+}
+
+
+====Apply Offer Api=====
+url:http://fako.projectstatus.in/api/apply/offer
+method : get
+header :
+    Accept : application/json
+    Authorization : Bearer.$token
+params: 
+    offer_id : 12
+    category_id :5
+Response:
+success
+{
+    "status": true,
+    "message": "Success.",
+    "code": 200,
+    "data": {}
+}
+
+{
+    "status": false,
+    "message": "Error",
+    "code": 200,
+    "data": {}
+}
+
+====Apply Offer Status Api=====
+url:http://fako.projectstatus.in/api/status/apply-offer
+method : get
+header :
+    Accept : application/json
+    Authorization : Bearer.$token
+params: 
+    token : sdfjkweoirusdjf
+Response:
+success
+{
+    "status": true,
+    "message": "Success.",
+    "code": 200,
+    "data": {}
+}
+
+{
+    "status": false,
+    "message": "Error",
+    "code": 200,
+    "data": {}
+}
+
+
+================Bank Details Api===================
+url:http://fako.projectstatus.in/api/bank/list
+method : get
+header :
+    Accept : application/json
+    Authorization : Bearer.$token
+params: None
+Response:
+success
+{
+    "status": true,
+    "message": "Success.",
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "user_id": 28,
+            "bank_name": "hdfc bank",
+            "account_number": "789456132",
+            "ifsc": "qwer798",
+            "status": 1,
+            "created_at": "2019-07-13 09:17:25",
+            "updated_at": "2019-07-13 09:17:25",
+            "deleted_at": null
+        }
+    ]
+}
+
+{
+    "status": false,
+    "message": "No Record found.",
+    "code": 200,
+    "data": {}
+}
+
+================Bank Create Api===================
+url:http://fako.projectstatus.in/api/bank/create
+method : post
+header :
+    Accept : application/json
+    Authorization : Bearer.$token
+params:
+    account_name : test,
+    name : hdfc bank,
+    account_no  : 789456132,
+    ifsc_code   : qwer798
+Response:
+success
+{
+    "status": true,
+    "message": "Success.",
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "user_id": 28,
+            "bank_name": "hdfc bank",
+            "account_number": "789456132",
+            "ifsc": "qwer798",
+            "status": 1,
+            "created_at": "2019-07-13 09:17:25",
+            "updated_at": "2019-07-13 09:17:25",
+            "deleted_at": null
+        }
+    ]
+}
+
+{
+    "status": false,
+    "message": "No Record found.",
+    "code": 200,
+    "data": {}
+}
+
+================Bank delete Api===================
+url:http://fako.projectstatus.in/api/bank/delete
+method : get
+header :
+    Accept : application/json
+    Authorization : Bearer.$token
+params: 
+    id : 1
+Response:
+success
+{
+    "status": true,
+    "message": "Account remove successfully.",
+    "code": 200,
+    "data": {}
+}
+
+{
+    "status": false,
+    "message": "Error.",
+    "code": 200,
+    "data": {}
+}
+
+================Share Redeem Request Api===================
+url:http://fako.projectstatus.in/api/redeem/list
+method : get
+header :
+    Accept : application/json
+    Authorization : Bearer.$token
+params: None
+Response:
+success
+{
+    "status": true,
+    "message": "Success.",
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "user_id": 28,
+            "bank_name": "hdfc bank",
+            "account_number": "789456132",
+            "ifsc": "qwer798",
+            "status": 1,
+            "created_at": "2019-07-13 09:17:25",
+            "updated_at": "2019-07-13 09:17:25",
+            "deleted_at": null
+        }
+    ]
+}
+
+{
+    "status": false,
+    "message": "No Record found.",
+    "code": 200,
+    "data": {}
+}
+
+================Redeem request create Api===================
+url:http://fako.projectstatus.in/api/redeem/request
+method : post
+header :
+    Accept : application/json
+    Authorization : Bearer.$token
+params: 
+    amount : 15,
+    bank_id : 1,
+    message : this is message
+Response:
+success
+{
+    "status": true,
+    "message": "Success.",
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "user_id": 28,
+            "bank_name": "hdfc bank",
+            "account_number": "789456132",
+            "ifsc": "qwer798",
+            "status": 1,
+            "created_at": "2019-07-13 09:17:25",
+            "updated_at": "2019-07-13 09:17:25",
+            "deleted_at": null
+        }
+    ]
+}
+
+{
+    "status": false,
+    "message": "No Record found.",
+    "code": 200,
+    "data": {}
+}
+
+============CMS pages Api=============
+url:http://fako.projectstatus.in/api/pages/{slug}
+method : get
+header :
+    Accept : application/json
+Response:
+success
+{
+    "status": true,
+    "message": "success.",
+    "code": 200,
+    "data": {
+        "id": 1,
+        "title": "About Us",
+        "page_slug": "about-us",
+        "description": "<h4><img style=\"float: left; margin: 25px 30px 25px 30px;\" src=\"\/photos\/about-img.jpg\" alt=\"\" width=\"242\" height=\"276\" \/><\/h4>\r\n<h4>Eagermeets was launched in the UK in 2019. The site operates globally and we are currently expanding our operations. Eagermeets allows users to connect with whoever they are looking for in their local area and further a field. Whether you are looking for someone to go to the football with or a lifetime partner, you can be sure to find them on Eagermeets. We are an independent family run<br \/>business who strongly believe in giving back to our users, so if you sign up for a 12-month subscription you will become a member of the Eagermeets Club. This means you could win prizes such as: a fully expensed luxury car,<br \/>holidays and cash prizes.<\/h4>\r\n<h4>If you have any questions or would like to get involved with Eagermeets please don't hesitate to contact us: admin@eagermeets.com<\/h4>\r\n<p>&nbsp;<\/p>",
+        "cannonical_link": null,
+        "seo_title": "cfyg",
+        "seo_keyword": "df",
+        "seo_description": "<p>dn<\/p>",
+        "status": 1,
+        "created_by": 1,
+        "updated_by": 1,
+        "created_at": "2019-02-11 05:27:03",
+        "updated_at": "2019-05-12 07:17:56",
+        "deleted_at": null,
+        "owner": {
+            "id": 1,
+            "first_name": "Admin",
+            "last_name": "Admin",
+            "gender": null,
+            "profilepic": "<img width=\"80\" id=\"uploadPreview\" alt = \"Uploaded\" src=\"http:\/\/127.0.0.1:8000\/storage\/app\/public\/img\/profilepic\/1551172527about-img.jpg\">",
+            "picapproved": "<label class='label label-success'>Approved<\/label>",
+            "email": "fakoadmin@yopmail.com",
+            "phone": null,
+            "address": null,
+            "address_2": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "zip": null,
+            "latitude": 56.1907058,
+            "longitude": -3.9488461999999345,
+            "search_radius": 5,
+            "status": 1,
+            "confirmation_code": "9a04dee61ed5f8f188f3f517d3286a26",
+            "mobile_code": null,
+            "confirmed": 1,
+            "is_term_accept": 0,
+            "accountname": null,
+            "dob": null,
+            "age": null,
+            "aboutme": null,
+            "created_by": 1,
+            "updated_by": 1,
+            "created_at": "2019-01-22 05:56:40",
+            "updated_at": "2019-05-24 10:48:24",
+            "deleted_at": null,
+            "stripe_id": null,
+            "card_brand": null,
+            "card_last_four": null,
+            "trial_ends_at": null,
+            "braintree_id": null,
+            "paypal_email": null,
+            "adminnote": null
+        }
+    }
+}
+
+{
+    "status": false,
+    "message": "Error.",
+    "code": 200,
+    "data": {}
+}
+
+============Faqs Api=============
+url:http://fako.projectstatus.in/api/faqs
+method : get
+header :
+    Accept : application/json
+Response:
+{
+    "status": true,
+    "message": "success.",
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "category_id": 3,
+            "question": "Test Question 1",
+            "answer": "<p>Test Ans<\/p>",
+            "status": 1,
+            "created_at": "2019-05-28 08:29:28",
+            "updated_at": null,
+            "deleted_at": null
+        },
+        {
+            "id": 13,
+            "category_id": 3,
+            "question": "Test Ques 2",
+            "answer": "<p>This is test ques answer<\/p>",
+            "status": 1,
+            "created_at": "2019-07-17 07:03:36",
+            "updated_at": "2019-07-17 07:03:36",
+            "deleted_at": null
+        }
+    ]
+}
+
+{
+    "status": false,
+    "message": "Error.",
+    "code": 200,
+    "data": {}
+}
+
+================Contact submit Api===================
+url:http://fako.projectstatus.in/api/contact-us/submit
+method : post
+header :
+    Accept : application/json
+    Authorization : Bearer.$token
+params: 
+    name:test
+    email:fatest@mailinator.com
+    phone:78945132
+    message:this is test message from john
+Response:
+success
+{
+    "status": true,
+    "message": "Thanks for contact us.",
+    "code": 200,
+    "data": {}
+}
+
+{
+    "status": false,
+    "message": "Error.",
+    "code": 200,
+    "data": {}
+}
+
+====Apply Offer Api=====
+url:http://fako.projectstatus.in/api/apply/refercode
+method : post
+header :
+    Accept : application/json
+params: 
+    code : NE1It4
+Response:
+success
+{
+    "status": true,
+    "message": "Success.",
+    "code": 200,
+    "data": {}
+}
+
+{
+    "status": false,
+    "message": "Error",
+    "code": 200,
+    "data": {}
+}
+
+
+
+
+
+
+

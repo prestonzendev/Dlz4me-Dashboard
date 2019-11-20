@@ -1,0 +1,589 @@
+# Webalizer V2.23-08 Incremental Data - 10/23/2019 04:02:35
+2019 10 23 4 2 35
+3515 1973 15 151 40 15 65751453 1810 30 0
+6 3 554 1 23
+20 20 573603 1 3 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+108 92 2427146 2 35 5
+117 112 1437265 2 98 3
+0 0 0 0 0 0
+1589 466 37751028 1 407 2
+1183 844 16641508 3 894 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+15 15 425167 1 7 1
+90 90 1380621 3 70 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+180 180 1322566 2 163 4
+213 154 3792549 6 133 8
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+157 123 4524361 97
+294 249 9111306 112
+426 362 7197448 279
+453 438 4746287 363
+123 123 42066 123
+120 33 16941 120
+120 0 7800 120
+42 0 2730 42
+37 37 830559 21
+42 42 413049 41
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+11 3 1279 10
+68 64 475091 45
+557 142 8799029 112
+300 83 7074690 69
+559 155 18788437 154
+206 119 3720380 102
+0
+0
+0
+1973
+0
+0
+0
+0
+0
+0
+0
+1
+57
+0
+1010
+0
+0
+0
+302
+0
+1
+147
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+21
+0
+0
+0
+0
+0
+# -urls- 
+/css/youcodehere/admin-login.css
+0 4 0 5096 0 0
+/js/skins/lightgray/skin.min.css
+0 1 0 8417 0 0
+/js/plugins/colorpicker/plugin.js
+0 1 0 950 0 0
+/js/jquery-1.12.0.min.js
+0 4 0 135380 0 0
+/services/8/edit
+0 16 0 271239 1 0
+/js/plugins/textpattern/plugin.js
+0 1 0 2645 0 0
+/css/backend.css
+0 14 0 633360 0 0
+/api/pages/privacy-policy
+0 2 0 1388 0 0
+/admin/dashboard
+0 5 0 82672 0 0
+/js/plugins/anchor/plugin.js
+0 1 0 1157 0 0
+/js/plugins/textcolor/plugin.js
+0 1 0 2802 0 0
+/vendor/profile
+0 5 0 69958 0 0
+/admin/login
+0 10 0 41722 6 0
+/register
+0 12 0 214262 0 0
+/js/plugins/nonbreaking/plugin.js
+0 1 0 875 0 0
+/images/placeholder-img.jpg
+1 1 0 5728 0 0
+/js/plugins/imagetools/plugin.js
+0 1 0 22341 0 0
+/vendor/dashboard
+0 8 0 99793 0 0
+/js/frontend/frontend.js
+0 66 65 10674 0 0
+/js/plugins/link/plugin.js
+0 1 36191056 5358 0 0
+/js/plugins/image/plugin.js
+0 1 0 8503 0 0
+/api/wallet/history
+0 16 0 16532 0 0
+/thankyou
+0 1 0 21972 0 0
+/admin/services/getFeatured
+0 3 0 2771 0 0
+/account/change-password
+0 7 0 114862 0 0
+/images/select-arrow.png
+1 44 0 9044 0 0
+/storage/app/public/img/category/1561765224Top_10_moisturizers_1.jpg
+1 5 0 389020 0 0
+/profile/update
+0 1 0 32623 0 0
+/js/skins/lightgray/content.min.css
+0 1 0 1317 0 0
+/storage/app/public/img/profilepic/1563879136images.jpg
+1 6 0 50832 0 0
+/storage/app/public/img/profilepic/1561763995images.jpg
+1 7 0 51898 0 0
+/img/backend/down-arrow.png
+1 2 0 812 0 0
+/js/plugins/lists/plugin.js
+0 1 0 7544 0 0
+/storage/app/public/img/offer/1561827124s.png
+1 18 0 830430 0 0
+/fonts/vendor/font-awesome/fontawesome-webfont.woff2
+0 14 0 1080240 0 0
+/storage/app/public/img/offer/1570460907s.png
+1 19 0 276810 0 0
+/api/get/category-offers
+0 15 0 7371 0 0
+/js/bootstrap.min.js
+0 4 0 56340 0 0
+/js/moment.min.js
+0 77 0 404500 0 0
+/api/get/offer/categories
+0 5 0 2488 0 0
+/storage/app/public/img/offer/1561766277sindoh_temp_13.jpg
+1 10 0 279150 0 0
+/storage/app/public/img/offer/1561828392work-title-copy.jpg
+1 6 0 618564 0 0
+/services
+0 1 0 22312 0 0
+/storage/app/public/img/category/1561765151main-qimg-12e085fca358d910fea084a62b407b42.png
+1 3 0 1140411 0 0
+/js/bootstrap-datetimepicker.min.js
+0 78 0 199374 0 0
+/js/backend-custom.js
+0 14 0 1094520 0 0
+/storage/app/public/img/offer/1563880799images.jpg
+1 6 0 50832 0 0
+/api/get/vendors
+0 72 0 127185 1 1
+/js/plugins/pagebreak/plugin.js
+0 1 0 1098 0 0
+/api/register/activate
+0 3 0 288 0 0
+/favicon.ico
+0 52 0 0 0 0
+/admin/services
+0 5 0 104738 0 0
+/api/apply/offer
+0 2 0 148 0 0
+/admin/access/user/customers
+0 2 0 7965 0 0
+/js/plugins/paste/plugin.js
+0 1 0 12131 0 0
+/admin/services/7/edit
+0 1 0 21643 0 0
+/api/register/resend-otp
+0 3 0 273 0 1
+/webfonts/fa-solid-900.woff2
+0 9 26259986749404212 668880 0 0
+/css/owlcarouseltheme.css
+0 66 4120287004002366977 16632 0 0
+/js/plugins/advlist/plugin.js
+0 1 3328780253479829504 1595 0 0
+/storage/app/public/img/logo/1561754591dlz4me-logo.jpg
+1 66 103008408961334 83545 0 0
+/js/plugins/code/plugin.js
+0 1 7163384644223827968 814 0 0
+/js/plugins/fullscreen/plugin.js
+0 1 7233181731374067568 1403 0 0
+/api/search/offers
+0 2 1 185 0 0
+/js/backend.js
+0 13 0 6451328 0 0
+/admin/access/user/61/edit
+0 1 0 8502 0 0
+/storage/app/public/img/profilepic/1561764149Coin_Bronze.png
+1 6 0 98220 0 0
+/js/plugins/template/plugin.js
+0 1 0 3126 0 0
+/js/jquery-2.2.3.min.js
+0 66 0 268695 0 0
+/admin/services/get
+0 5 0 6505 0 0
+/js/plugins/save/plugin.js
+0 1 1132109691085982976 971 0 0
+/api/get/featuredoffers
+0 67 0 45658 2 0
+/api/pages/about-us
+0 2 0 1394 0 0
+/dashboard
+0 22 0 368287 0 0
+/api/faqs
+0 1 0 210 0 0
+/api/get/featured-categories
+0 67 0 24774 1 1
+/css/style.css
+0 67 0 34810 0 0
+/subscription-plans
+0 2 0 41324 0 0
+/storage/app/public/img/category/1561765650download.jpg
+1 7 0 861861 0 0
+/storage/app/public/img/offer/1561828163productboard.png
+1 7 0 14889 0 0
+/login
+0 14 0 192848 0 0
+/js/plugins/contextmenu/plugin.js
+0 1 0 1413 0 0
+/profile
+0 22 0 463781 0 0
+/admin/pages
+0 1 36229888 3937 0 0
+/js/plugins/charmap/plugin.js
+0 1 0 4168 0 0
+/js/youcodehere/frontend-youcodehere.js
+0 67 0 22000 0 0
+/js/plugins/toc/plugin.js
+0 1 0 1965 0 0
+/js/dataTable.js
+0 2 0 2172762 0 0
+/sendgrid/
+0 16 0 7275 2 3
+/css/bootstrap.min.css
+0 69 0 253572 0 0
+/api/login
+0 15 0 11167 5 0
+/viewprofile
+0 2 0 31511 0 0
+/storage/app/public/img/category/1561827949ELECTRONICS1.jpg
+1 5 0 146140 0 0
+/admin/settings/1/edit
+0 2 0 55675 0 0
+/_debugbar/assets/javascript
+0 77 0 8849954 0 2
+/js/plugins/wordcount/plugin.js
+0 1 0 5988 0 0
+/admin/services/8/edit
+0 1 0 21666 0 0
+/js/plugins/print/plugin.js
+0 1 0 360 0 0
+/api/get/offer-details
+0 8 0 4087 0 0
+/admin/services/featured/offer
+0 3 3330471302363348992 58434 0 0
+/js/plugins/directionality/plugin.js
+0 1 127978989057139 687 0 0
+/js/plugins/searchreplace/plugin.js
+0 1 7017856672725300841 4354 0 0
+/js/themes/modern/theme.js
+0 1 8027210469829127781 64716 0 0
+/css/all.min.css
+0 66 3347140325757826361 106326 0 0
+/account
+0 1 93 20439 0 0
+/js/plugins/preview/plugin.js
+0 1 0 1446 0 0
+/css/backend-custom.css
+0 14 0 419216 0 0
+/css/jquery.smartmenus.bootstrap-4.css
+0 67 0 15330 0 0
+/_debugbar/open
+0 8 0 49609 0 0
+/storage/app/public/img/category/1561765080minimalistwardrobe.jpg
+1 6 0 938940 0 0
+/storage/app/public/img/offer/1563872745home.jpg
+1 7 0 573587 0 0
+/images/banner.jpg
+1 65 0 2094300 0 0
+/js/plugins/visualchars/plugin.js
+0 1 0 3430 0 0
+/js/plugins/table/plugin.js
+0 1 0 66851 0 0
+/fonts/glyphicons-halflings-regular.woff2
+0 4 0 72112 0 0
+/api/get/profile
+0 7 0 3695 0 0
+/_debugbar/assets/stylesheets
+0 77 0 9208045 0 0
+/
+0 17 0 153235 6 2
+/api/register
+0 57 0 19706 3 1
+/js/plugins/autolink/plugin.js
+0 1 0 1544 0 0
+/js/plugins/insertdatetime/plugin.js
+0 1 0 1647 0 0
+/api/pages/terms-and-conditions
+0 1 0 701 0 0
+/js/plugins/visualblocks/plugin.js
+0 1 0 1220 0 0
+/api/get/refercode
+0 6 0 605 0 0
+/js/youcodehere/backend-youcodehere.js
+0 14 0 119000 0 0
+/vendor/offers
+0 16 0 237772 0 0
+/js/youcodehere/jquery.inputmask.bundle.js
+0 72 0 492439 0 0
+/js/plugins/codesample/plugin.js
+0 1 0 9007 0 0
+/js/plugins/emoticons/plugin.js
+0 1 0 871 0 0
+/storage/app/public/img/offer/1561830721Lance-business-cards-02-960x640.jpg
+1 7 0 375746 0 0
+/storage/app/public/img/favicon/1570477519favicon-16x16.png
+1 15 0 18450 0 0
+/api/bank/list
+0 1 0 241 0 0
+/admin/notification/getlist
+0 629 0 215112 1 2
+/js/skins/lightgray/fonts/tinymce.woff
+0 1 0 18720 0 0
+/services/2/edit
+0 2 0 18707 0 0
+/api/wallet/available-balance
+0 20 0 1495 0 1
+/admin/access/user/get
+0 2 0 6040 0 0
+/api/get/offers
+0 2 0 2192 0 0
+/css/youcodehere/frontend-youcodehere.css
+0 66 0 11718 0 0
+/robots.txt
+0 4 0 96 0 0
+/css/bootstrap-datetimepicker.min.css
+0 69 0 11907 0 0
+/vendor/offerform
+0 4 0 66142 0 0
+/js/plugins/codesample/css/prism.css
+0 1 0 897 0 0
+/admin/services/1/edit
+0 41 0 567468 0 0
+/js/plugins/hr/plugin.js
+0 1 0 373 0 0
+/js/backend/bootstrap-tabcollapse.js
+0 1 0 2177 0 0
+/js/youcodehere/input-mask.js
+0 73 0 14484 0 0
+/api/get/vendor-offers
+0 2 0 581 0 0
+/storage/app/public/img/profilepic/1561764101unnamed.png
+1 6 0 147918 0 0
+/admin/pages/get
+0 1 36230000 483 0 0
+/css/responsive.css
+0 67 0 32550 0 0
+# End Of Table - urls
+# -sites- (monthly)
+175.107.216.158
+0 37 37 830559 2 1571302015
+/api/get/featured-categories
+52.114.142.71
+0 4 4 8940 1 1571800414
+/
+168.211.51.143
+0 42 42 413049 1 1571303780
+/api/get/category-offers
+212.103.50.147
+0 20 20 573603 1 1569966218
+/_debugbar/assets/stylesheets
+ec2-52-8-185-89.us-west-1.compute.amazonaws.com
+0 8 8 11587 3 1571800639
+/admin/login
+158.58.172.192
+0 38 38 831637 1 1570501855
+/api/get/offer-details
+37-8-146-8.ipoe.vladlink.net
+0 7 7 78811 1 1571800816
+/admin/login
+static-221.56.93.111-tataidc.co.in
+0 2931 1400 55723554 11 1571798786
+/admin/notification/getlist
+157.37.225.155
+0 58 58 1332638 1 1570244461
+/api/get/vendors
+52.114.14.102
+0 4 4 8940 1 1571796223
+/
+drtappezzeria.com
+0 38 38 830536 1 1570502188
+/api/get/offers
+27.61.201.114
+0 175 175 1320032 3 1571715774
+/api/get/featured-categories
+cpe-70-95-29-101.san.res.rr.com
+0 102 93 2432644 1 1571803355
+/admin/notification/getlist
+c-68-82-210-244.hsd1.pa.comcast.net
+0 26 26 562180 1 1571270428
+/api/get/featured-categories
+4.14.113.74
+0 25 23 792743 1 1570160258
+/register
+# End Of Table - sites (monthly)
+# -sites- (daily)
+52.114.142.71
+0 4 4 8940 1 1571800414
+/
+ec2-52-8-185-89.us-west-1.compute.amazonaws.com
+0 8 8 11587 3 1571800639
+/admin/login
+37-8-146-8.ipoe.vladlink.net
+0 7 7 78811 1 1571800816
+/admin/login
+static-221.56.93.111-tataidc.co.in
+0 88 38 1251627 1 1571798786
+/admin/notification/getlist
+52.114.14.102
+0 4 4 8940 1 1571796223
+/
+cpe-70-95-29-101.san.res.rr.com
+0 102 93 2432644 1 1571803355
+/admin/notification/getlist
+# End Of Table - sites (daily)
+# -referrers- 
+http://fako.projectstatus.in/vendor/dashboard
+0 21
+http://fako.projectstatus.in/admin/login
+0 28
+http://fako.projectstatus.in/admin/services/8/edit
+0 5
+http://fako.projectstatus.in/viewprofile
+0 1
+http://fako.projectstatus.in/vendor/offers
+0 217
+http://fako.projectstatus.in/login
+0 30
+http://fako.projectstatus.in/css/backend-custom.css
+0 6
+http://fako.projectstatus.in/admin/access/user/customers
+0 7
+http://fako.projectstatus.in/profile/update
+0 2
+http://fako.projectstatus.in/services
+0 16
+http://fako.projectstatus.in/admin/access/user/61/edit
+0 321
+http://fako.projectstatus.in/
+0 149
+http://fako.projectstatus.in/css/all.min.css
+0 9
+http://fako.projectstatus.in/account
+0 20
+http://fako.projectstatus.in/register
+0 133
+http://fako.projectstatus.in/profile
+0 302
+http://fako.projectstatus.in/admin/services/1/edit
+0 588
+http://fako.projectstatus.in/admin/pages
+0 40
+http://fako.projectstatus.in/tests/TestCase.php
+0 1
+- (Direct Request)
+0 663
+http://fako.projectstatus.in/js/skins/lightgray/skin.min.css
+0 1
+http://fako.projectstatus.in/vendor/profile
+0 14
+http://fako.projectstatus.in/profile/create
+0 4
+http://fako.projectstatus.in/vendor/offerform
+0 59
+http://fako.projectstatus.in/css/backend.css
+0 14
+http://fako.projectstatus.in/css/style.css
+0 42
+http://fako.projectstatus.in/admin/settings/1/edit
+0 51
+http://fako.projectstatus.in/services/2/edit
+0 6
+http://fako.projectstatus.in/services/8/edit
+0 267
+http://fako.projectstatus.in/tests
+0 1
+http://fako.projectstatus.in/css/universal.css
+0 1
+http://fako.projectstatus.in/admin/services/7/edit
+0 2
+http://fako.projectstatus.in/dashboard
+0 214
+http://fako.projectstatus.in/account/change-password
+0 27
+http://fako.projectstatus.in/sendgrid
+0 1
+http://fako.projectstatus.in/thankyou
+0 1
+http://fako.projectstatus.in/admin/services/featured/offer
+0 18
+http://fako.projectstatus.in/sendgrid/index.php
+0 15
+http://fako.projectstatus.in/admin/dashboard
+0 85
+http://fako.projectstatus.in/admin/services
+0 133
+# End Of Table - referrers
+# -agents- 
+Dalvik/2.1.0 (Linux; U; Android 9; motorola one power Build/PPTS29.74-41-5-7)
+0 17
+PostmanRuntime/7.15.2
+0 57
+Dalvik/2.1.0 (Linux; U; Android 9; Redmi Note 5 Pro MIUI/V10.3.2.0.PEIMIXM)
+0 19
+Dalvik/2.1.0 (Linux; U; Android 9; SM-G611F Build/PPR1.180610.011)
+0 17
+Dalvik/2.1.0 (Linux; U; Android 8.1.0; Android SDK built for x86 Build/OSM1.180201.031)
+0 32
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+0 1294
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+0 25
+Dalvik/2.1.0 (Linux; U; Android 9; SM-N960U Build/PPR1.180610.011)
+0 11
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0
+0 1594
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+0 109
+Mozilla/5.0 (compatible; DashLinkPreviews/5.1;)
+0 4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18
+0 2
+okhttp/3.12.0
+0 324
+AHC/2.1
+0 2
+Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5
+0 8
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

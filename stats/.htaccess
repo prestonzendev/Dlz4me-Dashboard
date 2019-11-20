@@ -1,0 +1,7 @@
+AuthName "infocare.projectstatus.in statistics"
+AuthType Basic
+AuthUserFile /home/infocare/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
