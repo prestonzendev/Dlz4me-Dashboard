@@ -18,6 +18,9 @@
       	<a href="{{route('frontend.index')}}"><img src="{{env('IMG_URL')}}/storage/app/public/img/logo/{{$setting->logo}}" alt="{{env('APP_NAME')}}"></a>
       </div>
       <div class="logo-right">
+        <ul>
+            <li><a href="{{url('admin/login')}}" class="active">Login</a></li>
+        </ul>
         <!-- <ul>
             <li><a href="{{ url('change-language/en')}}">English</a></li>
             <li><a href="{{ url('change-language/fr')}}">French</a></li>

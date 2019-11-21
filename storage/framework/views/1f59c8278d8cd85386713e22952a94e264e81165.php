@@ -1,0 +1,1 @@
+<div class="banner"><img src="<?php echo e(env('IMG_URL')); ?>/images/banner.jpg" alt=""></div>

@@ -136,7 +136,10 @@ class UserRepository extends BaseRepository
     {
         $data = $request->except('assignees_roles');
         $roles = $request->get('assignees_roles');
-        // $permissions = $request->get('permissions');
+
+        $permissions = in_array(2,$roles) ? [1,74,75,76,77,78,79] : [];
+
+        // dd($permissions);
 
         $data = $this->uploadprofilepic($data);
 
@@ -144,13 +147,12 @@ class UserRepository extends BaseRepository
 
         $user = $this->createUserStub($data);
 
-
         if (!empty($data['dob'])) {
             $user->dob = $data['dob'];
             $user->age = $this->calculateAge($data);
         }
 
-        DB::transaction(function () use ($user, $data, $roles) {
+        DB::transaction(function () use ($user, $data, $roles, $permissions) {
             if ($user->save()) {
 
                 //User Created, Validate Roles
@@ -162,7 +164,7 @@ class UserRepository extends BaseRepository
                 $user->attachRoles($roles);
 
                 // Attach New Permissions
-                // $user->attachPermissions($permissions);
+                $user->attachPermissions($permissions);
 
                 //Send confirmation email if requested and account approval is off
                 if (isset($data['confirmation_email']) && $user->confirmed == 1) {

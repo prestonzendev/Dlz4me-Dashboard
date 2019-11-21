@@ -36,9 +36,17 @@ class DashboardController extends Controller
         {
             $query->where('name', '=', 'Customer');
         })->get();
-        $vendors = User::with(['roles' => function ($query) {
-            $query->where('name', 'Vendor');
-        }])->get();
+        // $vendors = User::with(['roles' => function ($query) {
+        //     $query->where('name', 'Vendor');
+        // }])->get();
+        $vendors = DB::table('services')
+        ->join('role_user', 'services.vendor_id', '=', 'role_user.user_id')
+        ->where(function($query){
+            $query->where('services.vendor_id','=',Auth::User()->id)
+                  ->where('role_user.role_id','=',2);
+        })
+        ->get();
+
         $services = Service::get();
         $pages    = Page::get();
         $enquiry = Enquiry::get();
